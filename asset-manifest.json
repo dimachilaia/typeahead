@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/typeahead/static/css/main.4af0d389.css",
+    "main.js": "/typeahead/static/js/main.fee71706.js",
+    "index.html": "/typeahead/index.html",
+    "main.4af0d389.css.map": "/typeahead/static/css/main.4af0d389.css.map",
+    "main.fee71706.js.map": "/typeahead/static/js/main.fee71706.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4af0d389.css",
+    "static/js/main.fee71706.js"
+  ]
+}
