@@ -1,0 +1,133 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    padding: 10px 20px;
+    justify-content: center;
+}
+  .container img{
+      width: 150px;
+      border-radius: 50%;
+      height: 120px;
+      margin-top: 10px;
+  }
+  .usnm {
+      font-size: 20px;
+      overflow: hidden;
+  
+  }
+  .box{
+      width: 24%;
+      padding: 20px 40px;
+      border-radius: 5px;
+      transition: 0.5s;
+      color: white;
+    }
+  .container1{
+      width: 100%;
+      box-shadow: 2px 1px 4px 3px rgba(0,0,0,0.7);
+      background-color: rgb(23, 45, 78);
+    border-radius: 10%;
+
+  }
+  .box:hover{
+      cursor: pointer;
+      transition-duration: 0.4s;
+      transform: scale(1.2);
+      z-index: 1;
+  }
+  .url{
+      font-size: 7px;
+      color: rgb(153, 75, 75);
+  }
+  .showMore{
+      text-decoration: none;
+      color: #fff;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: lighter;
+      font-size: 23px;
+      padding: 0 20px;
+      color: green;
+    margin: 0 auto;
+    text-align: center;
+    }
+  
+  .showMore::after{
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #fff;
+      transition: width .3s;
+  }
+
+  .showMore:hover::after{
+      width: 100%;
+      transition: width .3s;
+  }
+
+  .showMore:hover{
+      color: aqua;
+      font-size: 23.5px;
+      transition: ease 0.3s;
+  }
+
+.inputData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px 5px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+/* .input::placeholder{
+    font-size: 16px;
+    color: rgb(19, 18, 18);
+} */
+.input:focus{
+   border-color: dodgerblue;
+   box-shadow: 0 0 8px 0 dodgerblue;
+}
+  @media screen and (max-width: 1050px){
+      .container .box{
+          width: 30%;
+          display: flex;
+          flex-wrap: wrap;
+      }
+  }
+  @media screen and (max-width: 870px){
+      .container .box{
+          width: 30%;
+      }
+      .showMore{
+        font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 540px){
+      .container .box{
+          width: 90%;
+          margin:auto
+      }
+      .input{
+        margin-bottom: 10px;
+        height: 10px;
+        width: 150px;
+    }
+      
+  }
+  
+  @media screen and (max-width: 330px){
+      .container .box{
+          width: 100%;
+      }
+  }

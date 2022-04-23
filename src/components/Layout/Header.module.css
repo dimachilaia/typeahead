@@ -1,0 +1,15 @@
+.header{
+    font-size: 1.4em;
+    font-weight: 600;
+    font-style: italic;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: wheat;
+}
+.github{
+    text-align: center;
+    align-items: center;
+    font-style: italic;
+    color: black;
+}
