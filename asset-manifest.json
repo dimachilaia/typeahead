@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/typeahead/static/css/main.4af0d389.css",
-    "main.js": "/typeahead/static/js/main.fee71706.js",
-    "index.html": "/typeahead/index.html",
-    "main.4af0d389.css.map": "/typeahead/static/css/main.4af0d389.css.map",
-    "main.fee71706.js.map": "/typeahead/static/js/main.fee71706.js.map"
+    "main.css": "/github-typeahead/static/css/main.615ad44c.css",
+    "main.js": "/github-typeahead/static/js/main.900c7441.js",
+    "index.html": "/github-typeahead/index.html",
+    "main.615ad44c.css.map": "/github-typeahead/static/css/main.615ad44c.css.map",
+    "main.900c7441.js.map": "/github-typeahead/static/js/main.900c7441.js.map"
   },
   "entrypoints": [
-    "static/css/main.4af0d389.css",
-    "static/js/main.fee71706.js"
+    "static/css/main.615ad44c.css",
+    "static/js/main.900c7441.js"
   ]
 }
