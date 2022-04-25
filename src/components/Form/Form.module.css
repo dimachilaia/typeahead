@@ -15,34 +15,37 @@
       margin-top: 10px;
   }
   .usnm {
-      font-size: 20px;
+      font-weight: bold;
+      font-size: 22px;
       overflow: hidden;
-  
-  }
+    color:white;
+    }
+
+    .foll{
+        font-size: 10px;
+        font-style: italic;
+        color: rgb(131, 122, 39);
+    }
   .box{
       width: 24%;
-      padding: 20px 40px;
+      padding: 15px 30px;
       border-radius: 5px;
       transition: 0.5s;
       color: white;
     }
   .container1{
       width: 100%;
-      box-shadow: 2px 1px 4px 3px rgba(0,0,0,0.7);
+      box-shadow: 2px 1px 5px 5px rgba(0,0,0,0.9);
       background-color: rgb(23, 45, 78);
     border-radius: 10%;
-
   }
   .box:hover{
       cursor: pointer;
-      transition-duration: 0.4s;
-      transform: scale(1.2);
+      transition-duration: 0.33s;
+      transform: scale(1.15);
       z-index: 1;
   }
-  .url{
-      font-size: 7px;
-      color: rgb(153, 75, 75);
-  }
+
   .showMore{
       text-decoration: none;
       color: #fff;
@@ -66,15 +69,20 @@
 
   .showMore:hover::after{
       width: 100%;
-      transition: width .3s;
+      transition: width .2s;
   }
 
   .showMore:hover{
-      color: aqua;
       font-size: 23.5px;
+      color: rgb(34, 226, 92);
+
       transition: ease 0.3s;
   }
 
+
+
+
+/* INPUT */
 .inputData{
     display: flex;
     justify-content: center;
@@ -85,9 +93,9 @@
     border-radius: 4px;
     margin: 8px 0;
     outline: none;
-    padding: 8px 5px;
+    padding: 10px 12px;
     box-sizing: border-box;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 /* .input::placeholder{
     font-size: 16px;
@@ -96,7 +104,10 @@
 .input:focus{
    border-color: dodgerblue;
    box-shadow: 0 0 8px 0 dodgerblue;
+   padding: 10px 12.5px;
 }
+
+/* RESPONSIVE */
   @media screen and (max-width: 1050px){
       .container .box{
           width: 30%;

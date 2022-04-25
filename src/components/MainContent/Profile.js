@@ -13,30 +13,34 @@ const Profile = () => {
 
     const allUser = async()=>{
       setLoading(true)
-      try{
-        const response = await fetch(URL)
-        if(!response.ok){
-          throw new Error ('Something Went Wrong...')
+      setTimeout(async() => {
+        try{
+          const response = await fetch(URL)
+          if(!response.ok){
+            throw new Error ('Something Went Wrong...')
+          }
+          const responseData = await response.json()
+          // console.log(responseData)
+          setUsers(responseData)
+          setLoading(false)
+  
+        }catch(error){
+          setError(error.message)
+          setLoading(false)
         }
-        const responseData = await response.json()
-        // console.log(responseData)
-        setUsers(responseData)
-        setLoading(false)
-
-      }catch(error){
-        setError(error.message)
-        setLoading(false)
-      }
+      }, 1600);
+      
 }
     useEffect(()=>{
       allUser()
-    },[])
+  },[])
+
     if(loading){
       return <main>
         <Loading/>
       </main>
     }
-
+    
   return (
     <div>
       <Header/>

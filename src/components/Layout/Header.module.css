@@ -1,15 +1,39 @@
 .header{
-    font-size: 1.4em;
     font-weight: 600;
     font-style: italic;
     margin: 0 auto;
     text-align: center;
-    color: white;
-    background-color: wheat;
+
 }
-.github{
-    text-align: center;
-    align-items: center;
-    font-style: italic;
-    color: black;
+.header h2{
+    font-size: 1.9em;
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 8px rgba(0,0,0,0.5);
+    color: whitesmoke;
+}
+.git{
+    color: rgb(30, 30, 65);
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 25px;
+    margin-top: 3px;
+}
+
+.git:hover{
+    color: rgb(65, 65, 136);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 460px){
+    .header h2{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header h2{
+        font-size: 1.23em;
+    }
 }

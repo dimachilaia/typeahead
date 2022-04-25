@@ -1,12 +1,12 @@
 import React from 'react'
-
+import classes from './Loading.module.css'
 const Loading = () => {
   return (
-    <div className="text-center">
-    <div className="spinner-border" role="status">
-      <span className="sr-only">Loading...</span>
-    </div>
-  </div>
+    <div>
+    <h1 className={classes.welcome}>WELCOME...</h1>
+      <div className={classes.loader}>
+      </div>
+      </div>
   )
 }
 

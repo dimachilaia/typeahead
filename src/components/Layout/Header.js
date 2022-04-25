@@ -4,8 +4,10 @@ import classes from './Header.module.css'
 const Header = () => {
   return (
     <div>
-        <div className={classes.header}> <h2 className={classes.github}>Search Github Users...
-        <FaGithubSquare className={classes.im}/>
+        <div className={classes.header}>
+           <h2 className={classes.github}>
+        <FaGithubSquare className={classes.git} />
+             Search Github Users...
       </h2></div>        
     </div>
   )
